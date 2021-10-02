@@ -1,21 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e1e732a0-867d-4d3a-a9f8-b4688073e715" name="Default Changelist" comment="" />
+    <list default="true" id="e1e732a0-867d-4d3a-a9f8-b4688073e715" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/musicquizz/src/components/Categories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicquizz/src/components/Finish.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicquizz/src/components/Game.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicquizz/src/components/Start.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicquizz/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/musicquizz/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicquizz/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/musicquizz/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicquizz/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/musicquizz/yarn.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ytafX9cJzBPDnAXqaVmX1v8Jol" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.TypeScript" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/musicquizz/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -27,7 +50,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1633073441588</updated>
-      <workItem from="1633073442673" duration="2538000" />
+      <workItem from="1633073442673" duration="5010000" />
     </task>
     <servers />
   </component>
@@ -35,13 +58,17 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="229" y="86" key="SettingsEditor" timestamp="1633073771101">
+    <state x="229" y="86" key="SettingsEditor" timestamp="1633101111790">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="229" y="86" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1633073771101" />
-    <state x="421" y="205" width="597" height="490" key="find.popup" timestamp="1633098133046">
+    <state x="229" y="86" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1633101111790" />
+    <state x="421" y="205" width="597" height="490" key="find.popup" timestamp="1633101178249">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="421" y="205" width="597" height="490" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1633098133046" />
+    <state x="421" y="205" width="597" height="490" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1633101178249" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1633101194117">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1633101194117" />
   </component>
 </project>
