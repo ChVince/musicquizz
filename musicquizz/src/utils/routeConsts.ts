@@ -5,4 +5,4 @@ export const ROUTE_URLS = {
     CATEGORIES_PAGE: `${APP_PREFIX}/categories`,
     GAME_PAGE: `${APP_PREFIX}/step/:step`,
     FINISH_PAGE: `${APP_PREFIX}/finish`
-}
+};
