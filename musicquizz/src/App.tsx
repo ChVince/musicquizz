@@ -1,7 +1,7 @@
 import React, {lazy, Suspense} from 'react';
 import {Route, Switch, Redirect, BrowserRouter as Router} from 'react-router-dom'
 import './App.css';
-import Start from "./components/Start";
+import Start from "./components/Start/Start";
 import Categories from "./components/Categories";
 import Finish from "./components/Finish";
 import {APP_PREFIX, ROUTE_URLS} from "./utils/routeConsts";
