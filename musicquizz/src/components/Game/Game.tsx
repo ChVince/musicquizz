@@ -49,4 +49,4 @@ function Game(props: StartProps) {
 }
 
 
-export default Game
+export default Game;

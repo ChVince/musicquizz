@@ -1,6 +1,8 @@
 import {database, ref, set} from "../initFirebase";
 
-type StartProps = {};
+interface StartProps {
+
+}
 
 //Db Example
 /*const categories = ref(database, "categories");*/

@@ -1,19 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e1e732a0-867d-4d3a-a9f8-b4688073e715" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/musicquizz/src/components/Game/Game.model.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicquizz/src/components/Game/Game.style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicquizz/src/components/Game/Game.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicquizz/src/initFirebase.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicquizz/src/utils/routeConsts.ts" afterDir="false" />
+    <list default="true" id="e1e732a0-867d-4d3a-a9f8-b4688073e715" name="Default Changelist" comment="[+] implemented routing">
+      <change afterPath="$PROJECT_DIR$/musicquizz/.eslintrc.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/musicquizz/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/musicquizz/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/musicquizz/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/musicquizz/src/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/musicquizz/src/components/Categories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/musicquizz/src/components/Categories.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicquizz/src/components/Game.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicquizz/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/musicquizz/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicquizz/src/serviceWorker.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicquizz/src/components/Game/Game.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/musicquizz/src/components/Game/Game.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/musicquizz/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/musicquizz/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,6 +25,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1ytafX9cJzBPDnAXqaVmX1v8Jol" />
@@ -86,10 +85,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="444" y="256" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1633253148309" />
-    <state x="311" y="41" key="CommitChangelistDialog2" timestamp="1633182266285">
+    <state x="311" y="41" key="CommitChangelistDialog2" timestamp="1633364925230">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="311" y="41" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1633182266285" />
+    <state x="311" y="41" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1633364925230" />
     <state x="229" y="86" key="SettingsEditor" timestamp="1633101111790">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
