@@ -1,7 +1,7 @@
 import React from 'react';
 import {Route, Switch, Redirect, BrowserRouter as Router} from 'react-router-dom'
 import './App.css';
-import Start from "./components/Start";
+import Start from "./components/Start/Start";
 import Categories from "./components/Categories";
 import Finish from "./components/Finish";
 import Game from "./components/Game/Game";
