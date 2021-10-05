@@ -16,7 +16,7 @@ function Start(props: StartProps) {
         localStorage.setItem('username', username);
     };
 
-    return <div>
+    return <div className="start-container">
         <h1>Hello, Quizz!</h1>
         <h2>Please enter your name</h2>
         <input type="text" value={username} onChange={(e) => usernameChanged(e.target.value)} placeholder="Player name" />

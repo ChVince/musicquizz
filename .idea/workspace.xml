@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e1e732a0-867d-4d3a-a9f8-b4688073e715" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/musicquizz/src/components/Game/Game.model.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicquizz/src/components/Game/Game.style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicquizz/src/components/Game/Game.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicquizz/src/initFirebase.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicquizz/src/utils/routeConsts.ts" afterDir="false" />
+    <list default="true" id="e1e732a0-867d-4d3a-a9f8-b4688073e715" name="Default Changelist" comment="[+] implemented Categories component&#10;[+] fetch data from">
+      <change afterPath="$PROJECT_DIR$/musicquizz/src/components/Categories/Categories.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicquizz/src/components/Categories/Categories.style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicquizz/src/styles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicquizz/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/musicquizz/.eslintrc.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicquizz/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/musicquizz/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/musicquizz/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/musicquizz/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/musicquizz/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/musicquizz/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicquizz/src/components/Categories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/musicquizz/src/components/Categories.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicquizz/src/components/Game.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicquizz/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/musicquizz/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicquizz/src/serviceWorker.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicquizz/src/components/Categories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/musicquizz/src/components/Categories/Categories.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicquizz/src/components/Start/Start.style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/musicquizz/src/components/Start/Start.style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicquizz/src/components/Start/Start.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/musicquizz/src/components/Start/Start.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicquizz/src/initFirebase.ts" beforeDir="false" afterPath="$PROJECT_DIR$/musicquizz/src/initFirebase.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/musicquizz/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/musicquizz/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,12 +25,17 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript JSX File" />
-        <option value="SCSS File" />
         <option value="TypeScript File" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1ytafX9cJzBPDnAXqaVmX1v8Jol" />
@@ -51,6 +56,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/musicquizz/src/components/Categories" />
       <recent name="$PROJECT_DIR$/musicquizz/src/components/Game" />
     </key>
   </component>
@@ -86,10 +92,34 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="444" y="256" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1633253148309" />
-    <state x="311" y="41" key="CommitChangelistDialog2" timestamp="1633182266285">
+    <state x="311" y="41" key="CommitChangelistDialog2" timestamp="1633418564092">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="311" y="41" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1633182266285" />
+    <state x="311" y="41" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1633418564092" />
+    <state width="1419" height="238" key="GridCell.Tab.0.bottom" timestamp="1633365508433">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="238" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1633365508433" />
+    <state width="1419" height="238" key="GridCell.Tab.0.center" timestamp="1633365508431">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="238" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1633365508431" />
+    <state width="1419" height="238" key="GridCell.Tab.0.left" timestamp="1633365508430">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="238" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1633365508430" />
+    <state width="1419" height="238" key="GridCell.Tab.0.right" timestamp="1633365508432">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="238" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1633365508432" />
+    <state x="144" y="76" key="MergeDialog" timestamp="1633365428194">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="144" y="76" key="MergeDialog/0.0.1440.900@0.0.1440.900" timestamp="1633365428194" />
+    <state x="358" y="215" key="MultipleFileMergeDialog" timestamp="1633365428231">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="358" y="215" key="MultipleFileMergeDialog/0.0.1440.900@0.0.1440.900" timestamp="1633365428231" />
     <state x="229" y="86" key="SettingsEditor" timestamp="1633101111790">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -102,9 +132,13 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="421" y="205" width="597" height="490" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1633253942230" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1633197839853">
+    <state width="600" height="428" key="javadoc.popup" timestamp="1633414951382">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1633197839853" />
+    <state width="600" height="428" key="javadoc.popup/0.0.1440.900@0.0.1440.900" timestamp="1633414951382" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1633368924232">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1633368924232" />
   </component>
 </project>

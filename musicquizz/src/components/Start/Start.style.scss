@@ -1,7 +1,15 @@
-.start-quiz-sections{
-  margin-top: 30px;
+.start-container {
+  height: 100%;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
 
-  button{
+.start-quiz-sections {
+
+  button {
     padding: 15px;
   }
 
