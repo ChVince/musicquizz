@@ -2,8 +2,9 @@ import React, {lazy, Suspense} from 'react';
 import {Route, Switch, Redirect, BrowserRouter as Router} from 'react-router-dom'
 import './App.css';
 import Start from "./components/Start/Start";
-import Categories from "./components/Categories";
+import Categories from "./components/Categories/Categories";
 import Finish from "./components/Finish";
+import './styles.scss'
 import {APP_PREFIX, ROUTE_URLS} from "./utils/routeConsts";
 
 
@@ -12,7 +13,7 @@ const Game = lazy(() => import('./components/Game/Game'))
 
 function App() {
     return (
-        <div className="App">
+        <div className="app-container">
             <Router>
 
                 <Suspense fallback={<div>Loading...</div>}>

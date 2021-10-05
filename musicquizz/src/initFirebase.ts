@@ -1,29 +1,28 @@
 import * as firebase from "firebase/app"
 import "firebase/auth"
-import {getDatabase, ref, set} from "firebase/database"
+import {getFirestore} from "firebase/firestore"
 
 
 type FirebaseApp = ReturnType<typeof firebase.initializeApp>
-type Database = ReturnType<typeof getDatabase>
+type Database = ReturnType<typeof getFirestore>
 
 let app: FirebaseApp;
 let database: Database;
 
 const config = {
-    apiKey: process.env.FIREBASE_API_KEY,
-    authDomain: `${process.env.FIREBASE_PROJECT_ID}.firebaseapp.com`,
-    databaseURL: `https://${process.env.FIREBASE_PROJECT_ID}-default-rtdb.farebaseio.com`,
-    projectId: process.env.FIREBASE_PROJECT_ID
+    apiKey: "AIzaSyBTEnfBejDC-B_JwrobaAuvySDAbPvZ9rU",
+    authDomain: `musicquizz-5fa2c.firebaseapp.com`,
+    projectId: "musicquizz-5fa2c"
 }
 
 
 function initFirebase() {
     if (!firebase.getApps().length) {
         app = firebase.initializeApp(config);
-        database = getDatabase(app);
+        database = getFirestore(app);
     }
 }
 
 initFirebase();
 
-export { firebase, database, ref, set, app }
+export { firebase, database, app }
