@@ -1,3 +1,6 @@
+import TableBody from "@mui/material/TableBody";
+import * as React from "react";
+
 export type StartProps = {
     progress: ProgressProps,
     quizz: QuizzProps,
