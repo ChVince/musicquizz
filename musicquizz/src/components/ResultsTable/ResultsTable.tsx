@@ -31,15 +31,20 @@ interface resultRow {
 
 type ResultsTableProps = {
     resultsData: Array<resultRow>
+    onPageChanged: (page: number) => void
+    pageSize: number
 };
 
-function ResultsTable({resultsData}:ResultsTableProps) {
+function ResultsTable({resultsData, onPageChanged, pageSize}:ResultsTableProps) {
     return <div style={{ height: 400, width: 700 }}>
       <DataGrid
         rows={resultsData}
         columns={columns}
-        pageSize={10}
-        // page={6}
+        pageSize={pageSize}
+        paginationMode="server"
+        onPageChange={onPageChanged}
+        rowCount={100}
+        //page={6} it doesn't work in datagrid acc
         hideFooterSelectedRowCount
         selectionModel={[5]}
       />
